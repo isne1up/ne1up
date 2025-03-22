@@ -38,7 +38,7 @@ export function Home({ userId }: HomeProps) {
   const navigate = useNavigate()
 
   useEffect(() => {
-    setTitle('ne1up')
+    setTitle('is ne1up')
   }, [setTitle])
 
   const handleRoomNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
