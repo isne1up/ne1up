@@ -1,4 +1,4 @@
-import Box from '@mui/material/Box'
+pimport Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
 import Dialog from '@mui/material/Dialog'
 import DialogActions from '@mui/material/DialogActions'
@@ -39,7 +39,7 @@ export const UpgradeDialog = ({ appNeedsUpdate }: UpgradeDialogProps) => {
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-description">
-          In order to function properly, Chitchatter needs to be updated. The
+          In order to function properly, ne1up needs to be updated. The
           update has already been installed in the background. All you need to
           do is reload the page or click "Refresh" below.
         </DialogContentText>
