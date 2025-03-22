@@ -1,4 +1,4 @@
-import Box from '@mui/material/Box'
+pimport Box from '@mui/material/Box'
 import Dialog from '@mui/material/Dialog'
 import DialogContent from '@mui/material/DialogContent'
 import DialogContentText from '@mui/material/DialogContentText'
@@ -37,7 +37,7 @@ export const EnvironmentUnsupportedDialog = () => {
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-description">
-          Chitchatter is unable to start up. The following issues were detected:
+          ne1up is unable to start up. The following issues were detected:
         </DialogContentText>
         <Typography
           component="ul"
