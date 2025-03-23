@@ -12,7 +12,7 @@ export const useShellTheme = () => {
         palette: {
           mode: colorMode,
           primary: {
-            main: colorMode === 'dark' ? '#ffffff' : '#000000', // White for dark mode, black for light mode
+            main: colorMode === 'dark' ? '#ffffff' : '#0BA1EE', // White for dark mode, black for light mode
           },
           background: {
             default: colorMode === 'dark' ? '#000000' : '#ffffff', // Black for dark mode, white for light mode
