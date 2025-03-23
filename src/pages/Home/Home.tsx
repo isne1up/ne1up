@@ -138,7 +138,7 @@ export function Home({ userId }: HomeProps) {
               }}
               disabled={!isRoomNameValid}
             >
-              Join public room
+              Create public room
             </Button>
             <Button
               variant="contained"
