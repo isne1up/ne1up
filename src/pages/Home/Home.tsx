@@ -32,11 +32,12 @@ interface HomeProps {
 
 export function Home({ userId }: HomeProps) {
   const { setTitle } = useContext(ShellContext)
+  const { getUserSettings } = useContext(SettingsContext);
   const theme = useTheme()
   const [roomName, setRoomName] = useState(uuid())
   const [showEmbedCode, setShowEmbedCode] = useState(false)
   const navigate = useNavigate()
-  const [ colorMode } = getUserSettings();
+  const { colorMode } = getUserSettings();
 
   useEffect(() => {
     setTitle('anyone up?');
