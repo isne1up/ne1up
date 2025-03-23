@@ -11,9 +11,12 @@ export const useShellTheme = () => {
       createTheme({
         palette: {
           mode: colorMode,
+          primary: {
+            main: colorMode === 'dark' ? '#ffffff' : '#000000', // White for dark mode, black for light mode
+          },
           background: {
-            default: colorMode === 'dark' ? '#000000' : '#ADB4BF', // Dark gray for dark mode, light gray for light mode
-            paper: colorMode === 'dark' ? '#000000' : '#ADB4BF', // Slightly lighter for dark mode, pure white for light mode
+            default: colorMode === 'dark' ? '#000000' : '#ffffff', // Black for dark mode, white for light mode
+            paper: colorMode === 'dark' ? '#000000' : '#ffffff',
           },
         },
       }),
@@ -22,3 +25,5 @@ export const useShellTheme = () => {
 
   return theme;
 };
+
+
