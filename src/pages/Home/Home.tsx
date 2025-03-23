@@ -74,7 +74,6 @@ export function Home({ userId }: HomeProps) {
 
   return (
     <Box className="Home">
-      <StyledLogo className="svg-logo" />
       <Main
         sx={{
           maxWidth: theme.breakpoints.values.md,
