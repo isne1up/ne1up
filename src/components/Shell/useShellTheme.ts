@@ -12,8 +12,8 @@ export const useShellTheme = () => {
         palette: {
           mode: colorMode,
           background: {
-            default: colorMode === 'dark' ? '#000000' : '#d9d9d9', // Dark gray for dark mode, light gray for light mode
-            paper: colorMode === 'dark' ? '#000000' : '#d9d9d9', // Slightly lighter for dark mode, pure white for light mode
+            default: colorMode === 'dark' ? '#000000' : '#ADB4BF', // Dark gray for dark mode, light gray for light mode
+            paper: colorMode === 'dark' ? '#000000' : '#ADB4BF', // Slightly lighter for dark mode, pure white for light mode
           },
         },
       }),
