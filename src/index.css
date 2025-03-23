@@ -21,3 +21,22 @@ pre {
 body {
   font-family: 'Roboto', Arial, Verdana;
 }
+/* Ensure the logo's color changes based on the theme */
+.svg-logo path {
+    fill: var(--logo-color); /* General color variable */
+}
+
+/* Dark theme retains the current logo style */
+body[data-theme='dark'] {
+    --logo-color: #90caf9; /* Light blue for dark theme */
+}
+
+/* Light theme changes the white parts to black */
+body[data-theme='light'] {
+    --logo-color: #1976d2; /* Dark blue for light theme */
+}
+
+/* Target specific white parts of the logo */
+body[data-theme='light'] .svg-logo .white-part {
+    fill: black; /* Change white parts to black in light theme */
+}
