@@ -36,10 +36,12 @@ export function Home({ userId }: HomeProps) {
   const [roomName, setRoomName] = useState(uuid())
   const [showEmbedCode, setShowEmbedCode] = useState(false)
   const navigate = useNavigate()
+  const [ colorMode } = getUserSettings();
 
   useEffect(() => {
-    setTitle('anyone up?')
-  }, [setTitle])
+    setTitle('anyone up?');
+    document.body.setAttribute('data-theme',
+  }, [setTitle, colorMode])
 
   const handleRoomNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target
