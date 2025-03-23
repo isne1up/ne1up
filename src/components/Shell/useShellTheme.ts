@@ -13,7 +13,7 @@ export const useShellTheme = () => {
           mode: colorMode,
           background: {
             default: colorMode === 'dark' ? '#000000' : '#d9d9d9', // Dark gray for dark mode, light gray for light mode
-            paper: colorMode === 'dark' ? '#000000' : '#ffffff', // Slightly lighter for dark mode, pure white for light mode
+            paper: colorMode === 'dark' ? '#000000' : '#d9d9d9', // Slightly lighter for dark mode, pure white for light mode
           },
         },
       }),
