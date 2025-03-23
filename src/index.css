@@ -30,5 +30,6 @@ body[data-theme='dark'] .svg-logo .white-part {
 
 /* Light theme changes the white parts to black */
 body[data-theme='light'] .svg-logo .white-part {
-    fill: black; /* Change white parts to black */
+    fill: black !important;
 }
+
