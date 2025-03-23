@@ -1,4 +1,4 @@
-import { PrismAsyncLight as SyntaxHighlighter } from 'react-syntax-highlighter'
+pimport { PrismAsyncLight as SyntaxHighlighter } from 'react-syntax-highlighter'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import Divider from '@mui/material/Divider'
@@ -51,7 +51,7 @@ export const EmbedCodeDialog = ({
 
   return (
     <Dialog open={showEmbedCode} onClose={handleEmbedCodeWindowClose}>
-      <DialogTitle>Embedding Chitchatter</DialogTitle>
+      <DialogTitle>Embedding ne1up</DialogTitle>
       <DialogContent>
         <DialogContentText
           sx={{
@@ -100,7 +100,7 @@ export const EmbedCodeDialog = ({
             href="https://github.com/jeremyckahn/chitchatter#SDK"
             target="_blank"
           >
-            Chitchatter SDK
+            ne1up SDK
           </Link>{' '}
           to embed a chat room as a{' '}
           <Link
