@@ -25,5 +25,3 @@ export const useShellTheme = () => {
 
   return theme;
 };
-
-
