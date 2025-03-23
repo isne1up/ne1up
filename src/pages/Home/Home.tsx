@@ -195,7 +195,7 @@ export function Home({ userId }: HomeProps) {
         }}
       >
         <MuiLink
-          href="https://github.com/isne1up/ne1up"
+          href="https://github.com/ne1up/ne1up"
           target="_blank"
           sx={() => ({
             color: theme.palette.text.primary,
@@ -214,14 +214,14 @@ export function Home({ userId }: HomeProps) {
       <Typography variant="body1" sx={{ textAlign: 'center', mb: 1 }}>
         Licensed under{' '}
         <MuiLink
-          href="https://github.com/isne1up/ne1up/blob/develop/LICENSE"
+          href="https://github.com/ne1up/ne1up/blob/develop/LICENSE"
           target="_blank"
         >
           GPL v2
         </MuiLink>
         . Please{' '}
         <MuiLink
-          href="https://github.com/isne1up/ne1up/blob/develop/README.md"
+          href="https://github.com/ne1up/ne1up/blob/develop/README.md"
           target="_blank"
         >
           read the docs
