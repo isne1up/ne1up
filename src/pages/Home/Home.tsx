@@ -84,7 +84,7 @@ export function Home({ userId }: HomeProps) {
         }}
       >
         <Link to={routes.ABOUT}>
-          <StyledLogo
+          <StyledLogo className="svg-logo"
             sx={{
               px: 0.5,
               pb: 2,
