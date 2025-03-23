@@ -17,6 +17,7 @@ import { v4 as uuid } from 'uuid'
 
 import { routes } from 'config/routes'
 import { ShellContext } from 'contexts/ShellContext'
+import { SettingsContext } from 'contexts/SettingsContext'
 import { PeerNameDisplay } from 'components/PeerNameDisplay'
 import { Form, Main } from 'components/Elements'
 import Logo from 'img/logo.svg?react'
