@@ -38,6 +38,7 @@ export interface DrawerProps extends PropsWithChildren {
 export const Drawer = ({ isDrawerOpen, onDrawerClose }: DrawerProps) => {
   const theme = useTheme()
   const settingsContext = useContext(SettingsContext)
+  const { getUserSettings, updateUserSettings } = useContext(SettingsContext);
   const colorMode = settingsContext.getUserSettings().colorMode
 
   const handleColorModeToggleClick = () => {
