@@ -149,7 +149,7 @@ export function Home({ userId }: HomeProps) {
               }}
               disabled={!isRoomNameValid}
             >
-              Join private room
+              New private room
             </Button>
             <Button
               variant="contained"
