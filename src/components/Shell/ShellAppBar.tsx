@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography'
 import Slide from '@mui/material/Slide'
 import Zoom from '@mui/material/Zoom'
 import Divider from '@mui/material/Divider'
+import Box from '@mui/material/Box'
 
 import ExpandMore from '@mui/icons-material/ExpandMore'
 import Fullscreen from '@mui/icons-material/Fullscreen'
