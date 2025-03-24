@@ -95,7 +95,7 @@ export function Home({ userId }: HomeProps) {
           fontWeight: 'bold', // Optional for styling
         }}
       >
-        HELLO
+        hello, world
       </Box>
     </Link>
 
