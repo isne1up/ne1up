@@ -122,17 +122,16 @@ export const ShellAppBar = ({
 
             {isEmbedded ? null : (
               <Tooltip title={title}>
-                <Typography
-                  variant="h6"
-                  noWrap
-                  component="div"
-                  sx={{
-                    marginRight: 'auto',
-                  }}
-                >
-                  {title}
-                </Typography>
-              </Tooltip>
+  <Box
+    component="img"
+    src="/path-to-your-logo-or-favicon.png"
+    alt={title}
+    sx={{
+      height: 40, // Adjust the height as needed
+      marginRight: 'auto',
+    }}
+  />
+</Tooltip>
             )}
             {isEmbedded ? null : (
               <>
