@@ -91,7 +91,6 @@ export function Home({ userId }: HomeProps) {
           mx: 'auto',
           maxWidth: theme.breakpoints.values.sm,
           textAlign: 'center',
-          fontSize: '135px', // Adjust this if necessary to match the size
           fontWeight: 'bold', // Optional for styling
         }}
       >
