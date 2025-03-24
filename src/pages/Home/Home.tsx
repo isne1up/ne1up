@@ -84,15 +84,21 @@ export function Home({ userId }: HomeProps) {
         }}
       >
         <Link to={routes.ABOUT}>
-          <StyledLogo className="svg-logo"
-            sx={{
-              px: 0.5,
-              pb: 2,
-              mx: 'auto',
-              maxWidth: theme.breakpoints.values.sm,
-            }}
-          />
-        </Link>
+      <Box
+        sx={{
+          px: 0.5,
+          pb: 2,
+          mx: 'auto',
+          maxWidth: theme.breakpoints.values.sm,
+          textAlign: 'center',
+          fontSize: '135px', // Adjust this if necessary to match the size
+          fontWeight: 'bold', // Optional for styling
+        }}
+      >
+        HELLO
+      </Box>
+    </Link>
+
         <Form
           onSubmit={handleFormSubmit}
           sx={{ maxWidth: theme.breakpoints.values.sm, mx: 'auto' }}
