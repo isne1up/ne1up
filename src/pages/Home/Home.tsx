@@ -93,6 +93,7 @@ export function Home({ userId }: HomeProps) {
           textAlign: 'center',
           fontSize: 'clamp(91px, 7vw, 140px)',
           fontWeight: 'bold', // Optional for styling
+          width: '100%',
         }}
       >
         hello, world
