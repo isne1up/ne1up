@@ -125,7 +125,7 @@ export const ShellAppBar = ({
               <Tooltip title={title}>
   <Box
     component="img"
-    src="/logo.svg"
+    src="/logo/logo.svg"
     alt={title}
     sx={{
       height: 40, // Adjust the height as needed
