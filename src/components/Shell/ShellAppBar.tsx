@@ -128,7 +128,7 @@ export const ShellAppBar = ({
     src="/logo/logo.svg"
     alt={title}
     sx={{
-      height: 40, // Adjust the height as needed
+      height: 30, // Adjust the height as needed
       marginRight: 'auto',
     }}
   />
