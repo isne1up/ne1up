@@ -91,6 +91,7 @@ export function Home({ userId }: HomeProps) {
           mx: 'auto',
           maxWidth: theme.breakpoints.values.sm,
           textAlign: 'center',
+          fontSize: 'calc(1rem + 1vw)',
           fontWeight: 'bold', // Optional for styling
         }}
       >
