@@ -91,7 +91,7 @@ export function Home({ userId }: HomeProps) {
           mx: 'auto',
           maxWidth: theme.breakpoints.values.sm,
           textAlign: 'center',
-          fontSize: 'clamp(50px, 8vw, 150px)',
+          fontSize: 'clamp(50px, 8vw, 115px)',
           fontWeight: 'bold', // Optional for styling
           lineHeight: 1,
           width: '100%',
