@@ -125,7 +125,7 @@ export const ShellAppBar = ({
               <Tooltip title={title}>
   <Box
     component="img"
-    src="https://github.com/isne1up/ne1up/blob/develop/public/favicon.ico"
+    src="/favicon.ico"
     alt={title}
     sx={{
       height: 40, // Adjust the height as needed
