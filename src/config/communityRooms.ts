@@ -1,7 +1,7 @@
 export const communityRoomNames = [
   'buy-and-sell',
-  'crypto',
-  'hacking',
+  'ai',
+  'opensource',
   'leaks',
   'news',
   'organize',
