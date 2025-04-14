@@ -1,5 +1,5 @@
 export const communityRoomNames = [
-  'buy-and-sell',
+  'livechat',
   'ai',
   'opensource',
   'leaks',
